@@ -6,7 +6,7 @@
 背景：为某煤矿公司智能研究中心做一个智能检测：<a href="https://baike.baidu.com/item/%E7%9F%B8%E7%9F%B3/2192577?fr=aladdin">矸（gān）石</a>充填防碰撞的检测和预警。矸石充填就是捣实机不断把传动带送过来的细碎矸石给往后捣实。以往都是矿工手动操控捣实机，由于矿工经常误操作，会把捣实机抬得过高，撞断传送带。现在使用计算机视觉的方法，借助海康威视的ip摄像头，实现一个智能的防碰撞系统，降低人力成本和撞击的概率。<br>
 <strong>总共有五个模块：视频流读入，语义分割及图像处理，设计输入输出，程序加密，程序封装</strong><br>
 Demo：<a href="https://www.bilibili.com/video/BV1z44y1B7RH/">Video</a></p>
-<p><img src="https://img-blog.csdnimg.cn/7d9d4644b8964db9985735df75f9da0a.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>
+<p><img src="https://img-blog.csdnimg.cn/db5305b10a804dc3ac3c8f061ac011d5.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>
 <img src="https://img-blog.csdnimg.cn/b1933a0e77134887a75ddbda790b43d1.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <h1><a id="_8"></a>语义分割识别模块</h1>
 <p>在讨论设计方案的时候，提出两种方案：<br>
