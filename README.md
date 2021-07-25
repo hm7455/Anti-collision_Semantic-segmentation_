@@ -19,7 +19,7 @@ Demo：<a href="https://www.bilibili.com/video/BV1z44y1B7RH/">Video</a></p>
 reference:<em>https://github.com/CoinCheung/BiSeNet</em><br>
 paper: <em>https://arxiv.org/abs/1808.00897</em><br>
 网络的运行和测试可以参考原作者的github</p>
-<h2><a id="2_20"></a>2.读取视频</h2>
+<h2><a id="2_20"></a>2.读取视频流</h2>
 <p>使用python-opencv拉流，读取实时视频通过ip地址+端口 以及用户名密码等。</p>
 <pre><code class="prism language-python"><span class="token keyword">import</span> cv2
 <span class="token comment"># user: admin</span>
